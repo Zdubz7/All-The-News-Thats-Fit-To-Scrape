@@ -10,6 +10,9 @@
 - npm install body-parser
 - npm install cheerio
 - npm install request
+- npm install method-override
+- npm install morgan
+- npm install loopback-connector-mongodb --save
 
 - To run this app on heroku do the following below.
 - heroku login
