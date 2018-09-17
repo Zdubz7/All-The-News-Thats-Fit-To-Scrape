@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<title>New York Times Scraper</title>
+	<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>New York Times Scraper</title>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<a href="/"><div id="sitename">NYT Scraper</div></a>
+		<a href="/">
+			<div id="sitename">NYT Scraper</div>
+		</a>
 		<a href="/"><button id="all-articles">All Articles</button></a>
 		<a href="/saved"><button id="saved-articles">Saved Articles</button></a>
 		<form action="/scrape" method="GET">
@@ -20,11 +26,11 @@
 			<input type="text" name="search" placeholder="Search for articles" id="search-input">
 		</form>
 	</header>
-	<img id="cover" src="/assets/images/cover.jpg" height="500px">
+	<img id="cover" src="/assets/images/cover.gif" height="500px">
 	<div id="container">
 		{{{ body }}}
 	</div>
-	
+
 	<script src="/assets/javascript/app.js"></script>
 
 	<div id="addnote">
@@ -41,8 +47,9 @@
 			</div>
 		</div>
 	</div>
-	
-	<footer>2018 © Copyright Zach Wiest</footer>
+
+	<footer>2018 © Copyright Zach Wiest Development</footer>
 	<script src="/assets/javascript/app.js"></script>
 </body>
+
 </html>
