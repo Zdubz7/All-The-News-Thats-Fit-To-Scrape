@@ -21,6 +21,11 @@ a {
 	color: #ffffff;
 }
 
+a:hover{
+	text-decoration: none;
+	color: #f56bab !important;
+}
+
 header form {
 	display: inline;
 }
@@ -56,11 +61,15 @@ header button {
 }
 
 #refresh-articles {
-	background-color: #bbb;
+	background-color: #000000 !important;
+	border-radius: 6px;
+	color: #ffffff !important;
 }
 
 #all-articles:hover, #saved-articles:hover, #refresh-articles:hover {
-	background-color: #ccc;
+	background-color: #f56bab !important;
+	color: #ffffff !important;
+	border-radius: 6px;
 	opacity: 0.9;
 }
 
@@ -71,6 +80,7 @@ header button {
 	min-width: 200px;
 	border-radius: 6px;
 	margin-top: 10px;
+	padding-right: 5%;
 }
 
 #search-submit {
@@ -81,6 +91,18 @@ header button {
 	margin-right: 10px;
 	Color: rgb(130, 13, 153) !important;
 	border-radius: 6px;
+}
+
+#search-submit:hover {
+	float: right;
+	height: 80%;
+	margin-top: 10px;
+	height: 63%;
+	margin-right: 10px;
+	background-color: #f56bab !important;
+	Color: #ffffff !important;
+	border-radius: 6px;
+	
 }
 
 #sitename {
@@ -96,6 +118,9 @@ header button {
 
 #cover {
 	width: 100%;
+	background: linear-gradient(
+		rgba(245, 9, 194, 0.877), 
+		rgba(134, 4, 58, 0.753)),
 }
 
 .story-body {
@@ -114,7 +139,7 @@ header button {
 	float: left;
 	display: block;
 	width: 77%;
-	color: #fff;
+	color: #ffffff;
 	padding-left: 10px;
 }
 
@@ -122,7 +147,7 @@ header button {
 	display: inline;
 	min-width: 128px;
 	background-color: #000000;
-	color: #fff;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 22px;
 	border-radius: 6px;
@@ -153,7 +178,7 @@ header button {
 	text-align: center;
 	padding: 40px 90px;
 	color: #aaa;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 #addnote {
@@ -202,7 +227,7 @@ header button {
 #note-displayer button {
 	min-width: 128px;
 	background-color: rgb(130, 13, 153);
-	color: #fff;
+	color: #ffffff;
 	font-weight: bold;
 	font-size: 20px;
 	margin: 0 10px;
