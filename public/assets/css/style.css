@@ -12,6 +12,10 @@ button {
 	border: 0;
 }
 
+h2{
+	color: rgb(130, 13, 153) !important;
+}
+
 a {
 	text-decoration: none;
 	color: #ffffff;
@@ -36,11 +40,12 @@ header {
 header button {
 	float: left;
 	font-size: 20px;
-	color: #fff;
+	color: #ffffff;
 	height: 100%;
 	min-width: 150px;
 	padding: 0 15px;
 }
+
 
 #all-articles {
 	background-color: #999;
@@ -64,7 +69,7 @@ header button {
 	padding: 5px;
 	font-size: 15px;
 	min-width: 200px;
-	border-radius: 5px;
+	border-radius: 6px;
 	margin-top: 10px;
 }
 
@@ -74,6 +79,8 @@ header button {
 	margin-top: 10px;
 	height: 63%;
 	margin-right: 10px;
+	Color: rgb(130, 13, 153) !important;
+	border-radius: 6px;
 }
 
 #sitename {
@@ -118,11 +125,13 @@ header button {
 	color: #fff;
 	font-weight: bold;
 	font-size: 22px;
+	border-radius: 6px;
 }
 
 .story-body button:hover {
 	background-color: #f56bab;
 	box-shadow: 0 0 10px #ffffff;
+	border-radius: 6px;
 }
 
 .story-body summary {
@@ -202,7 +211,7 @@ header button {
 
 #note-displayer button:hover {
 	background-color: #f56bab;
-	box-shadow: 0 0 10px #fff;
+	box-shadow: 0 0 10px #ffffff;
 }
 
 #note-title {
